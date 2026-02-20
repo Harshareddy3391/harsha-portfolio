@@ -1,0 +1,51 @@
+/* Section */
+.education-section {
+  padding: 60px 20px;
+  text-align: center;
+  background: #f5f7fa;
+}
+
+/* Title */
+.edu-title {
+  font-size: 28px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+/* Container */
+.edu-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* Card Style */
+.edu-card {
+  background: white;
+  width: 300px;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+  text-align: left;
+}
+
+/* Hover Effect */
+.edu-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading */
+.sub-hed {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #00bcd4;
+}
+
+/* Paragraph */
+.edu-card p {
+  margin: 5px 0;
+  color: #555;
+}

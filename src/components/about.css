@@ -1,0 +1,48 @@
+/* Section */
+.about-section {
+  padding: 70px 20px;
+  text-align: center;
+  background: #f5f7fa;
+}
+
+/* Title */
+.about-title {
+  font-size: 28px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+/* Card */
+.about-card {
+  max-width: 750px;
+  margin: auto;
+  padding: 35px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+}
+
+/* Hover Effect */
+.about-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Text */
+.about-card p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #555;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-card {
+    padding: 25px;
+  }
+
+  .about-card p {
+    font-size: 16px;
+  }
+}
