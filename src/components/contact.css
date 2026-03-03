@@ -1,115 +1,60 @@
-/* ================= CONTACT SECTION ================= */
-
+/* Full Footer Background */
 .footer {
-  background-color: #111;
-  padding: 80px 20px 40px;
-  border-top: 2px solid #00bcd4;
+  background: #0f172a;
   color: white;
+  text-align: center;
+  padding-top: 50px;
 }
 
-/* Center Section */
+/* Section spacing */
 .section {
-  max-width: 600px;
-  margin: 0 auto;
-  text-align: center;
+  padding: 20px;
 }
 
 /* Heading */
 .hed {
-  font-size: 34px;
-  font-weight: 700;
-  color: #00bcd4;
-  margin-bottom: 40px;
-  position: relative;
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #38bdf8;
 }
 
-/* Underline */
-.hed::after {
-  content: "";
-  width: 60px;
-  height: 3px;
-  background-color: #00bcd4;
-  display: block;
-  margin: 10px auto 0;
-  border-radius: 5px;
-}
-
-/* Contact Cards */
+/* Email & Phone */
 .meil,
 .number {
-  background-color: #1a1a1a;
-  border: 1px solid #2a2a2a;
-  border-radius: 12px;
-  padding: 14px 20px;
-  margin: 15px auto;
-  font-size: 15px;
-  color: #ccc;
-  transition: all 0.3s ease;
-  width: fit-content;
+  font-size: 16px;
+  margin: 8px 0;
+  color: #070707;
 }
 
-.meil:hover,
-.number:hover {
-  border-color: #00bcd4;
-  color: #00bcd4;
-  transform: translateY(-4px);
-  box-shadow: 0 0 15px rgba(0, 188, 212, 0.4);
-}
-
-/* Social Icons */
-.icon {
-  width: 40px;
-  margin: 15px 10px;
-  transition: transform 0.3s ease, filter 0.3s ease;
-}
-
-.icon:hover {
-  transform: scale(1.2);
-  filter: drop-shadow(0 0 8px #00bcd4);
-}
-
-/* Bottom Footer */
-.footer-bottom {
-  text-align: center;
-  margin-top: 50px;
-  color: #666;
-  font-size: 13px;
-  border-top: 1px solid #060606;
-  padding-top: 20px;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .hed {
-    font-size: 26px;
-  }
-
-  .icon {
-    width: 35px;
-  }
-}
 /* Social Icons Container */
 .social-icons {
-  margin: 20px 0;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 /* Icon Style */
 .icon {
-  width: 45px;
-  height: 45px;
-  padding: 10px;
-  background-color: #fafafa;
+  width: 40px;
+  height: 40px;
+  transition: 0.3s ease;
   border-radius: 50%;
-  border: 1px solid #f7f0f0;
-  margin: 0 10px;
-  transition: all 0.3s ease;
-  cursor: pointer;
+  padding: 8px;
+  background: white;
 }
 
 /* Hover Effect */
 .icon:hover {
-  transform: translateY(-5px) scale(1.1);
-  border-color: #00bcd4;
-  box-shadow: 0 0 15px rgba(0, 188, 212, 0.6);
-  background-color: #fffdfd;
+  transform: scale(1.15);
+  background: #38bdf8;
+}
+
+/* Bottom Footer */
+.footer-bottom {
+  margin-top: 40px;
+  padding: 15px 0;
+  background: #020617;
+  font-size: 14px;
+  color: #94a3b8;
 }
